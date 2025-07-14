@@ -10,8 +10,39 @@ else{
 
 //2
 
-// a=5
-// b=9
-// if
+ a=5
+ b=9
+ if(a<b)
+ {
+     console.log('larger number')
+ }
+ else
+{
+    console.log('small number')
+}
 
-//adjvbbvjubww
+
+// 3
+
+leap=2020
+
+if(leap%4==0)
+{
+    console.log('leap year')
+}
+else{
+    console.log('year')
+}
+
+//4
+
+
+num=5
+sum=0
+
+for(i=1;i<=num;i++){
+    
+    sum=sum+i
+    
+}
+   console.log(sum)
