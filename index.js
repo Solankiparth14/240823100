@@ -70,3 +70,62 @@
 
 
 // 7
+
+// let num=1234
+// let rev=0
+// let temp=num
+
+// for(i=1;temp!=0;i++){
+//               let value=temp%10;
+//               rev=rev*10+value
+//               temp=Math.floor(temp/10)
+
+// }
+// console.log(rev)
+
+//8
+
+// let a=191
+// let num=a
+// let n=0
+
+// for(i=1;a!=0;i++){
+
+//     n=n*10+(a%10)
+//     a=Math.floor(a/10)
+
+// }
+
+// if(num==n){
+//     console.log("pailndrom")
+
+// }else{
+//     console.log('not pailndrom')
+// }
+
+ //9
+
+let num=22      
+let prime=true
+
+if(num<=1){
+    
+    isprime=false
+}
+else{
+
+    for(i=2;i=num;i++){
+  
+          if(num%2==0) {
+
+            isprime=false
+            break
+          }
+    }
+}
+if(isprime==true){
+    console.log("prime")
+}
+else{
+    console.log("not prime")
+}
