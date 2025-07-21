@@ -105,27 +105,83 @@
 
  //9
 
-let num=22      
-let prime=true
+// let num=22      
+// let prime=true
 
-if(num<=1){
+// if(num<=1){
     
-    isprime=false
-}
-else{
+//     isprime=false
+// }
+// else{
 
-    for(i=2;i=num;i++){
+//     for(i=2;i=num;i++){
   
-          if(num%2==0) {
+//           if(num%2==0) {
 
-            isprime=false
-            break
-          }
-    }
-}
-if(isprime==true){
-    console.log("prime")
-}
-else{
-    console.log("not prime")
+//             isprime=false
+//             break
+//           }
+//     }
+// }
+// if(isprime==true){
+//     console.log("prime")
+// }
+// else{
+//     console.log("not prime")
+// }
+
+
+// 10
+
+// let num=1221
+// let sum=0
+
+// while(num>0){
+//     num=Math.floor(num/10)
+//     sum++
+// }
+// console.log(sum)
+
+
+// 11
+
+// let num=23
+// let sum=0
+
+// for(i=0;i<String(num).length;i++){
+
+//     sum+=Number(String(num)[i])
+
+// }
+// console.log(sum)
+
+// 12
+
+// let num=153
+// let digit=String(num)
+// let sum=0
+
+// for(i=0;i<digit.length;i++){
+
+//     sum+=Math.pow(Number(digit[i]),digit.length)
+// }
+// if(sum==num){
+//     console.log('number is armstrong')
+// }
+// else{
+//     console.log('number is not armstrong')
+// }
+
+
+// 13
+
+let count=5;
+let a=0
+let b=1
+
+for (let i = 0; i < count; i++) {
+  console.log(a);
+  let next = a + b;
+  a = b;
+  b = next;
 }
