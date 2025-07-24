@@ -175,13 +175,16 @@
 
 // 13
 
-let count=5;
-let a=0
-let b=1
+// let count=5;
+// let a=0
+// let b=1
 
-for (let i = 0; i < count; i++) {
-  console.log(a);
-  let next = a + b;
-  a = b;
-  b = next;
-}
+// for (let i = 0; i < count; i++) {
+//   console.log(a);
+//   let next = a + b;
+//   a = b;
+//   b = next;
+// }
+
+// 14
+
