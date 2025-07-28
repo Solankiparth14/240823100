@@ -187,4 +187,95 @@
 // }
 
 // 14
+//  let  char='v'
 
+//  if(char=='a'|| char =='e' || char=='i' || char =='o'|| char =='u' ||char=="A" ||char=="E" ||char=="I" ||char=="O" ||char=="U")
+//  {
+//      console.log("vowel")
+//  }  
+//  else{
+//      console.log("char")
+//  }
+
+
+
+// 15
+// let a=15
+// let b=20
+// console.log(a+b)
+// console.log(a-b)
+// console.log(a*b)
+// console.log(a/b)
+
+// 16
+
+// let a=20
+// let b=28
+// let gcd=1
+
+// for(i=1;i<=a && i<=b; i++)
+// {
+//     if(a%i==0 && b%i==0)
+//     {
+//         gcd=i
+//     }
+// }
+// console.log(gcd)
+
+// 17
+
+// let a=28
+// let sum=0
+
+// for(i=1;i<a;i++)
+// {
+//     if(a%i==0){
+//         sum+=i
+//   }
+// }
+
+// if(sum==a){
+//     console.log(a+" perfect number ")
+// }
+// else{
+//     console.log(a+" not perfect number")
+// }
+
+
+// 18
+
+// let num=10
+
+// console.log("divisors of,num,are:")
+
+// for(i=1;i<=num;i++)
+// {
+//   if(num%i==0)
+//     {
+//         console.log(i)
+//     } 
+     
+// }
+
+// 19
+
+// let a=-5
+
+// if(a>0){
+//     console.log('p')
+// }
+// else if(a<0)
+//     {
+//     console.log('n')
+//     }
+// else
+// {
+//   console.log('o')
+// }
+
+let a=2
+let b=3
+
+let c=a**b
+
+console.log("power"+c)
